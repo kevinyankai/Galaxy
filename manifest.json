@@ -1,6 +1,6 @@
 {
-    "name" : "galaxy",
-    "appid" : "__UNI__A727ACD",
+    "name" : "template",
+    "appid" : "__UNI__78193DA",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -9,7 +9,6 @@
     "app-plus" : {
         "usingComponents" : true,
         "nvueCompiler" : "uni-app",
-        "compilerVersion" : 3,
         "splashscreen" : {
             "alwaysShowBeforeRender" : true,
             "waiting" : true,
@@ -50,14 +49,16 @@
             /* ios打包配置 */
             "ios" : {},
             /* SDK配置 */
-            "sdkConfigs" : {}
+            "sdkConfigs" : {
+                "ad" : {}
+            }
         }
     },
     /* 快应用特有相关 */
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wxb371361ab5e6a537",
         "setting" : {
             "urlCheck" : false
         },
@@ -71,8 +72,5 @@
     },
     "mp-toutiao" : {
         "usingComponents" : true
-    },
-    "uniStatistics": {  
-        "enable": false
     }
 }

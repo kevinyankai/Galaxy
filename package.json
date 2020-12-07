@@ -1,0 +1,20 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "#### Description {**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
+  "main": "main.js",
+  "dependencies": {
+    "vue-falls": "^2.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://111.19.254.141:8088/slingshot-phase2/front"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
